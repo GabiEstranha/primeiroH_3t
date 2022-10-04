@@ -1,7 +1,7 @@
 # Terceiro Trimestre
 
 ## Identificação
-Jesus - Nr. 50
+Gabriela Torquetti - Nr. 42
 
 ## Conteúdo
 HTML, CSS e javaScript
