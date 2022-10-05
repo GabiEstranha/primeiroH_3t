@@ -31,3 +31,14 @@ function quadrado(){
         document.write("O Quadrado de " + i + " é " + (i*i)+ "<br>")
     }
 }
+function total(){
+    let valor = document.getElementById("val").value;
+    let juros = document.getElementById("ju").value;
+    let mes = document.getElementById("mes").value;
+    let resultado = 0;
+    for(let i = 1; i <= mes; i++){
+        resultado += valor * (1+(juros/100));
+    }
+    
+    document.write("O Resultado é " + resultado);
+}
