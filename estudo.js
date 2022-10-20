@@ -30,7 +30,6 @@ function quadrado(){
     for(var i = 2; i < 101; i++){
         document.write("O Quadrado de " + i + " é " + (i*i)+ "<br>")
     }
-
 }
 function total(){
     let valor = document.getElementById("val").value;
@@ -43,26 +42,4 @@ function total(){
     }
     
     document.write("O Resultado é " + resultado);
-}
-
-function soma(){
-    let n1 = document.getElementById("n1").value;
-    let n2 = document.getElementById("n2").value;
-    let n3 = document.getElementById("n3").value;
-    let r = Number(n1) + Number(n2) + Number(n3);
-    document.getElementById("resultado").innerHTML = r;
-}
-function média(){
-    let n1 = document.getElementById("n1").value;
-    let n2 = document.getElementById("n2").value;
-    let n3 = document.getElementById("n3").value;
-    let r = (Number(n1) + Number(n2) + Number(n3))/3;
-    document.getElementById("resultado").innerHTML = r;
-}
-function necessário(){
-    let n1 = document.getElementById("n1").value;
-    let n2 = document.getElementById("n2").value;
-    let n3 = document.getElementById("n3").value;
-    let r = 180 - (Number(n1) + Number(n2) + Number(n3));
-    document.getElementById("resultado").innerHTML = r;
 }
